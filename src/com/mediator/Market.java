@@ -4,6 +4,7 @@ public class Market implements Department {
     private  Mediator mediator;
 
     public Market(Mediator mediator) {
+        
         super();
         this.mediator = mediator;
         //将当前对象注册到中介
