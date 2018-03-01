@@ -1,7 +1,7 @@
 package com.singleton;
 
 /**
- * 懒汉模式
+ * 懒汉模式  资料利用效率高 但是调用效率低 多线程调用时要等待
  */
 public class SingletonDemo2 {
 
