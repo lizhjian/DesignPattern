@@ -1,4 +1,7 @@
 package com.builder;
 
-public class AirShipBuilder {
+public interface AirShipBuilder {
+  Engine buildEngine();
+  OrbitalModule buildOrbitalModule();
+  EscapeTower builderEscapeTower();
 }
